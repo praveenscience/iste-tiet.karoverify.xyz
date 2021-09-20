@@ -7,7 +7,10 @@ var GenerateCode = function (Email, Phone) {
 $(function () {
   var CertMap = {
     "PART": "/Certificates/Participants/",
-    "ORGS": "/Certificates/Organiser/"
+    "ORGS": "/Certificates/Organiser/",
+    "FIRST": "/Certificates/First/",
+    "SECOND": "/Certificates/Second/",
+    "THIRD": "/Certificates/Third/"
   };
   $("#claim").submit(function (e) {
     e.preventDefault();
